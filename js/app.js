@@ -58,11 +58,11 @@ function menu() {
 
 /* Current Page*/
 var currentPosition = 0;
-var sections = ["", "INFO", "TEAM", "SPONSOREN", "KONTAKT"]
+var sections = ["", "INFO", "TEAM", "SPONSOREN", "KONTAKT", "DATEIEN"]
 
 window.onhashchange = function () {
     let number = window.location.hash.substr(1, 2);
-    if (number < 5 && number != currentPosition) {
+    if (number < 6 && number != currentPosition) {
         $('#links').children('p').eq(currentPosition).children('a').removeClass('active');
         $('#links').children('p').eq(number).children('a').addClass('active');
         $('#nav-info').animate(

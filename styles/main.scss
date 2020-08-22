@@ -143,18 +143,19 @@ header {
         flex-direction: column;
 
         p {
-            margin: 1em auto 1em auto;
+            margin: 1.5em auto 1.5em auto;
 
             a {
                 color: white;
                 font-weight: bold;
                 text-decoration: none;
                 text-align: center;
-                font-size: 5em;
+                font-size: 3em;
                 letter-spacing: 15px;
+                transition: .3s;
 
                 &:hover {
-                    text-shadow: 0px 0px 100px rgba(255, 255, 255, 0.6);
+                    text-shadow: 0px 0px 70px rgba(255, 255, 255, 0.8);
                 }
             }
 
@@ -164,7 +165,7 @@ header {
                 -webkit-text-stroke-color: var(--mid-blue);
 
                 &:hover {
-                    text-shadow: 0px 0px 100px rgba(41, 158, 220, 0.8);
+                    text-shadow: 0px 0px 70px rgba(41, 158, 220, 1);
                 }
             }
         }
@@ -257,6 +258,17 @@ section {
                 animation: dot 2s ease infinite;
             }
         }
+
+        p{
+            font-size: .8em;
+            letter-spacing: 10px;
+            position: absolute;
+            top: 65px;
+            left: 50%;
+            transform: translateX(-45%);
+            opacity: .3;
+            animation: text 2s ease infinite;
+        }
     }
 
     @keyframes gradient {
@@ -287,6 +299,20 @@ section {
         100% {
             top: 30%;
             background-position: 0% 100%;
+        }
+    }
+
+    @keyframes text {
+        0% {
+            opacity: .3;
+        }
+
+        50% {
+            opacity: .5;
+        }
+
+        100% {
+            opacity: .3;
         }
     }
 }

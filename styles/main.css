@@ -141,7 +141,7 @@ header #burger-wrapper span:nth-child(2) {
 }
 
 .menu div p {
-  margin: 1em auto 1em auto;
+  margin: 1.5em auto 1.5em auto;
 }
 
 .menu div p a {
@@ -149,12 +149,14 @@ header #burger-wrapper span:nth-child(2) {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  font-size: 5em;
+  font-size: 3em;
   letter-spacing: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .menu div p a:hover {
-  text-shadow: 0px 0px 100px rgba(255, 255, 255, 0.6);
+  text-shadow: 0px 0px 70px rgba(255, 255, 255, 0.8);
 }
 
 .menu div p .active {
@@ -164,7 +166,7 @@ header #burger-wrapper span:nth-child(2) {
 }
 
 .menu div p .active:hover {
-  text-shadow: 0px 0px 100px rgba(41, 158, 220, 0.8);
+  text-shadow: 0px 0px 70px #299edc;
 }
 
 section {
@@ -264,6 +266,19 @@ section .headline {
           animation: dot 2s ease infinite;
 }
 
+#Home .scroll-container p {
+  font-size: .8em;
+  letter-spacing: 10px;
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  -webkit-transform: translateX(-45%);
+          transform: translateX(-45%);
+  opacity: .3;
+  -webkit-animation: text 2s ease infinite;
+          animation: text 2s ease infinite;
+}
+
 @-webkit-keyframes gradient {
   0% {
     background-position: 0% 100%;
@@ -315,6 +330,30 @@ section .headline {
   100% {
     top: 30%;
     background-position: 0% 100%;
+  }
+}
+
+@-webkit-keyframes text {
+  0% {
+    opacity: .3;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: .3;
+  }
+}
+
+@keyframes text {
+  0% {
+    opacity: .3;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: .3;
   }
 }
 
