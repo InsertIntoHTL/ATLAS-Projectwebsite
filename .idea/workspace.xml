@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc6fceea-5b7f-4fcf-9e35-d07d9e24067e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Sass File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fb9jXPlh9AJoZNq8BipyiL982O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/OneDrive - HTL Wien 3 Rennweg/Websites/Examples/NiceSimpleContactForm" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\schule\atlas\fonts" />
+      <recent name="C:\xampp\htdocs\schule\atlas\resources\logos" />
+      <recent name="C:\xampp\htdocs\schule\atlas\js" />
+      <recent name="E:\OneDrive - HTL Wien 3 Rennweg\Schule\5. Klasse\Diplomarbeit\Projektwebsite\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\schule\atlas\resources\logos" />
+      <recent name="C:\xampp\htdocs\schule\atlas\styles" />
+      <recent name="E:\OneDrive - HTL Wien 3 Rennweg\Schule\5. Klasse\Diplomarbeit\Projektwebsite\resources" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc6fceea-5b7f-4fcf-9e35-d07d9e24067e" name="Default Changelist" comment="" />
+      <created>1596476060256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596476060256</updated>
+      <workItem from="1596476061595" duration="3562000" />
+      <workItem from="1596530765969" duration="3548000" />
+      <workItem from="1596534409600" duration="2782000" />
+      <workItem from="1596540180685" duration="134000" />
+      <workItem from="1596550080555" duration="4373000" />
+      <workItem from="1596712065602" duration="16000" />
+      <workItem from="1597060889607" duration="2523000" />
+      <workItem from="1597229737760" duration="8389000" />
+      <workItem from="1597310877796" duration="252000" />
+      <workItem from="1597311137200" duration="9834000" />
+    </task>
+    <task id="LOCAL-00001" summary="menu erstellt">
+      <created>1597267621714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597267621714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="menu erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu erstellt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="6" key="CommitChangelistDialog2" timestamp="1597267620689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597267620689" />
+    <state x="627" y="308" key="EditFileWatcherDialog" timestamp="1596553363195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="308" key="EditFileWatcherDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1596553363195" />
+    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1597320647155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597320647155" />
+    <state x="285" y="86" key="MergeDialog" timestamp="1597264265482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="285" y="86" key="MergeDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597264265482" />
+    <state x="840" y="386" width="442" height="268" key="MultipleFileMergeDialog" timestamp="1597264265488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="840" y="386" width="442" height="268" key="MultipleFileMergeDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597264265488" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597319537582">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597319537582" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597267626049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597267626049" />
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597264231784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597264231784" />
+  </component>
+</project>

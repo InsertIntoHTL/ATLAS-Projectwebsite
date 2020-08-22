@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /ATLAS-Projectwebsite
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
