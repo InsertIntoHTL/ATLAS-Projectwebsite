@@ -1,5 +1,5 @@
 :root {
-  --dark-background: #000;
+  --dark-background: #111;
   --mid-blue: #299edc;
 }
 
@@ -208,7 +208,7 @@ section .headline {
   font-weight: bold;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
-  color: rgba(255, 255, 255, 0);
+  color: var(--dark-background);
   z-index: 2;
 }
 
@@ -338,7 +338,7 @@ section .headline {
     opacity: .3;
   }
   50% {
-    opacity: .5;
+    opacity: .7;
   }
   100% {
     opacity: .3;
@@ -350,7 +350,7 @@ section .headline {
     opacity: .3;
   }
   50% {
-    opacity: .5;
+    opacity: .7;
   }
   100% {
     opacity: .3;
@@ -1025,5 +1025,61 @@ section .headline {
   .dots {
     display: none;
   }
+}
+
+#Files footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #000;
+  font-size: .8em;
+}
+
+#Files footer img {
+  width: auto;
+  height: 6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  #Files footer img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #Files footer {
+    font-size: 12px;
+  }
+}
+
+#Files footer a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+
+#Files footer a:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  border-radius: 2px;
+  background-color: var(--mid-blue);
+  left: 0;
+  bottom: -4px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#Files footer a:hover:after {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

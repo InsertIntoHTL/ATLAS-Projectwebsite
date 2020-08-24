@@ -1,5 +1,5 @@
 :root {
-    --dark-background: #000;
+    --dark-background: #111;
     --mid-blue: #299edc;
 }
 
@@ -208,7 +208,7 @@ section {
         font-weight: bold;
         -webkit-text-stroke-width: 4px;
         -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
-        color: rgba(255, 255, 255, 0);
+        color: var(--dark-background);
         z-index: 2;
 
 
@@ -308,7 +308,7 @@ section {
         }
 
         50% {
-            opacity: .5;
+            opacity: .7;
         }
 
         100% {
@@ -985,5 +985,58 @@ section {
 .dots {
     @media (max-width: 768px) {
         display: none;
+    }
+}
+
+#Files{
+    footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #000;
+        font-size: .8em;
+
+        img{
+            width: auto;
+            height: 6em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            @media (max-width: 768px) {
+                 display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            font-size: 12px;
+        }
+
+        a{
+            color: #fff;
+            text-decoration: none;
+            position: relative;
+            &:after{
+                content: '';
+                position: absolute;
+                width: 0%;
+                height: 3px;
+                border-radius: 2px;
+                background-color: var(--mid-blue);
+                left: 0;
+                bottom: -4px;
+                transition-duration: .3s;
+            }
+
+            &:hover{
+                &:after{
+                    width: 100%;
+                }
+            }
+        }
     }
 }
