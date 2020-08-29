@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Project-Atlas</title>
+    <link rel="icon" type="image/svg" href="assets/images/ATLAS_Logo.svg">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -41,6 +42,8 @@
     <link rel="stylesheet" type="text/css" href="styles/full-page-scroll.min.css" />
     <script src="js/full-page-scroll.min.js"></script>
 
+    <!-- Recaptcha -->
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
     <script src="./js/member.js"></script>
     <script src="./js/app.js"></script>
@@ -170,41 +173,55 @@
 
         <section id="Contact" class="col-12">
             <div class="row d-flex justify-content-center">
+
                 <h2 class="headline col-8">KONTAKT</h2>
-                <form action="send_mail.php" method="post" role="form"
-                    class="contact100-form validate-form col-8 col-lg-6">
-                    <span class="contact100-form-title">
-                        Benachrichtige uns
-                    </span>
 
-                    <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
-                        <span class="label-input100">Name</span>
-                        <input class="input100" type="text" name="name" placeholder="Dein Name">
-                        <span class="focus-input100"></span>
-                    </div>
+                <?php if(isset($_GET['success'])){
+                                echo '<div class="success">Vielen Dank für deine Nachricht!</div>';
+                              } else {
+                                echo '<form action="send_mail.php" method="post" role="form"
+                                                    onsubmit="return submitUserForm();"
+                                                  class="contact100-form validate-form col-8 col-lg-6">
+                                                  <span class="contact100-form-title">
+                                                      Benachrichtige uns
+                                                  </span>
 
-                    <div class="wrap-input100 rs1-wrap-input100 validate-input"
-                        data-validate="Valid email is required: ex@abc.xyz">
-                        <span class="label-input100">Email</span>
-                        <input class="input100" type="text" name="email" placeholder="Deine E-Mail Adresse">
-                        <span class="focus-input100"></span>
-                    </div>
+                                                  <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
+                                                      <span class="label-input100">Name</span>
+                                                      <input class="input100" type="text" name="name" placeholder="Dein Name">
+                                                      <span class="focus-input100"></span>
+                                                  </div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Message is required">
-                        <span class="label-input100">Nachricht</span>
-                        <textarea class="input100" name="message" placeholder="Teile uns etwas mit..."></textarea>
-                        <span class="focus-input100"></span>
-                    </div>
+                                                  <div class="wrap-input100 rs1-wrap-input100 validate-input"
+                                                      data-validate="Valid email is required: ex@abc.xyz">
+                                                      <span class="label-input100">Email</span>
+                                                      <input class="input100" type="text" name="email" placeholder="Deine E-Mail Adresse">
+                                                      <span class="focus-input100"></span>
+                                                  </div>
 
-                    <div class="container-contact100-form-btn">
-                        <button class="contact100-form-btn" type="submit">
-                            <span>
-                                Senden
-                                <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
-                            </span>
-                        </button>
-                    </div>
-                </form>
+                                                  <div class="wrap-input100 validate-input" data-validate="Message is required">
+                                                      <span class="label-input100">Nachricht</span>
+                                                      <textarea class="input100" name="message" placeholder="Teile uns etwas mit..."></textarea>
+                                                      <span class="focus-input100"></span>
+                                                  </div>
+
+                                                  <div class="g-recaptcha mb-4" data-sitekey="6Lcm3cQZAAAAAH-An0QXTOLF0ALAi8kfn1sfdZdQ" data-callback="verifyCaptcha"></div>
+                                                  <span class="spacer"></span>
+                                                  <div id="g-recaptcha-error"></div>
+
+                                                  <div class="container-contact100-form-btn">
+                                                      <button class="contact100-form-btn" type="submit">
+                                                          <span>
+                                                              Senden
+                                                              <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                                          </span>
+                                                      </button>
+                                                  </div>
+                                              </form>';
+                              }
+                              ?>
+
+
             </div>
 
         </section>

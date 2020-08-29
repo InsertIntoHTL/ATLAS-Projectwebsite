@@ -625,7 +625,7 @@ section {
         position: relative;
         border-bottom: 2px solid #d9d9d9;
         padding-bottom: 2px;
-        margin-bottom: 5em;
+        margin-bottom: 2em;
     }
 
     .rs1-wrap-input100 {
@@ -644,9 +644,9 @@ section {
         display: block;
         width: 100%;
         background: transparent;
-        font-size: 1.2em;
-        color: #FFF;
-        font-weight: bold;
+        font-size: 1em;
+        color: hsl(0, 0%, 85%);
+        font-weight: normal;
         line-height: 1.2;
         padding: 0 5px;
     }
@@ -665,7 +665,7 @@ section {
         content: "";
         display: block;
         position: absolute;
-        bottom: -1px;
+        bottom: -2px;
         left: 0;
         width: 0;
         height: 2px;
@@ -747,13 +747,13 @@ section {
         transition: all 0.4s;
     }
 
-    .contact100-form-btn:hover {
+    /*.contact100-form-btn:hover {
         box-shadow: 0 0 40px 0px rgba(41, 158, 220, 0.5);
         -moz-box-shadow: 0 0 40px 0px rgba(41, 158, 220, 0.5);
         -webkit-box-shadow: 0 0 40px 0px rgba(41, 158, 220, 0.5);
         -o-box-shadow: 0 0 40px 0px rgba(41, 158, 220, 0.5);
         -ms-box-shadow: 0 0 40px 0px rgba(41, 158, 220, 0.5);
-    }
+    }*/
 
     .contact100-form-btn:hover i {
         -webkit-transform: translateX(10px);
@@ -797,9 +797,9 @@ section {
         content: attr(data-validate);
         position: absolute;
         max-width: 70%;
-        background-color: #fff;
+        background-color: var(--mid-blue);
         border: 2px solid var(--mid-blue);
-        border-radius: 2px;
+        border-radius: 20px;
         padding: 4px 25px 4px 10px;
         top: 58%;
         -webkit-transform: translateY(-50%);
@@ -810,7 +810,7 @@ section {
         right: 2px;
         pointer-events: none;
 
-        color: var(--mid-blue);
+        color: #fff;
         font-weight: 400;
         font-size: 13px;
         line-height: 1.4;
@@ -846,6 +846,11 @@ section {
         opacity: 1;
     }
 
+    .alert-validate:hover:after {
+        transition: 0.5s ease;
+        color: #fff;
+    }
+
     @media (max-width: 992px) {
         .alert-validate::before {
             visibility: visible;
@@ -853,6 +858,24 @@ section {
         }
     }
 
+    .g-recaptcha {
+        margin-bottom: 0.6em!important;
+    }
+
+    .spacer {
+        width: 600px;
+    }
+
+    #g-recaptcha-error {
+        width: 300px;
+        height: 56px;
+        margin-bottom: 1.5em;
+    }
+
+    .success {
+        font-size: 2em;
+        font-weight: bold;
+    }
 
     /*==================================================================
     [ Contact more ]*/
@@ -1024,11 +1047,11 @@ section {
                 content: '';
                 position: absolute;
                 width: 0%;
-                height: 3px;
+                height: 2px;
                 border-radius: 2px;
                 background-color: var(--mid-blue);
                 left: 0;
-                bottom: -4px;
+                bottom: -3px;
                 transition-duration: .3s;
             }
 

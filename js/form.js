@@ -1,3 +1,20 @@
+let g_recaptcha_error = document.getElementById('g-recaptcha-error');
+
+function submitUserForm() {
+    var response = grecaptcha.getResponse();
+    if(response.length == 0) {
+        g_recaptcha_error.innerHTML = 'Please complete the reCAPTCHA.';
+        return false;
+    }
+    return true;
+}
+
+function verifyCaptcha() {
+    document.getElementById('g-recaptcha-error').innerHTML = '';
+}
+
+
+
 /*==================================================================
     [ Focus Contact2 ]*/
 $('.input100').each(function(){
