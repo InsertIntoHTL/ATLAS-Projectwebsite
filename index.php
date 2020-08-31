@@ -37,6 +37,13 @@
     <!-- Recaptcha -->
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js
+
+
+
+"></script>
+
     <script src="./js/member.js"></script>
     <script src="./js/app.js"></script>
 </head>
@@ -125,7 +132,7 @@
                         </div>
                         <div class="col-1" id="next"></div>
                         <div class="spinning-spheres col-0 col-md-4">
-
+                            <canvas id="spheres"></canvas>
                         </div>
                     </div>
                 </div>
@@ -302,6 +309,7 @@
 
 
     <script type="text/javascript" src="js/form.js"></script>
+    <script type="module" src="js/spheres.js"></script>
 </body>
 
 </html>
