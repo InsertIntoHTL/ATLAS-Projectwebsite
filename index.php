@@ -9,16 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap and JQuerry -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
     <!--Barba.js-->
     <!-- unpkg -->
@@ -31,9 +25,7 @@
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <!-- Montserrat -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="./styles/main.css" />
@@ -90,7 +82,7 @@
         <section id="About" class="col-xs-12">
             <div class="row d-flex justify-content-center">
                 <h2 class="headline col-8">INFO</h2>
-                <p class="col-8 col-md-6">
+                <p class="col-8 col-lg-6">
                     Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt im komplett
                     verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter
                     Deich. Vogel Quax zwickt Johnys Pferd Bim. Sylvia wagt quick den Jux bei Pforzheim. Polyfon
@@ -108,21 +100,24 @@
                 <div class="col-8">
                     <div class="row">
                         <div class="col-1" id="prev"></div>
-                        <div class="col-10 col-md-6">
+                        <div class="col-10 col-lg-6">
                             <div class="row">
                                 <div class="membercard col-12">
                                     <div class="row">
-                                        <div class="profile-picture col-12 col-md-4">
+                                        <div class="profile-picture col-12 col-lg-4">
                                             <img id="member-pic" src="./assets/images/team/filip.jpeg" />
                                         </div>
-                                        <div class="infotext col-12 col-md-8">
-                                            <h3 id="member-name">Filip Milovanovic</h3>
-                                            <p id="member-role">Scrum Master</p>
-                                            <p id="member-team">CORE</p>
-                                            <div class="socials">
-                                                <img id="member-link1" />
-                                                <img id="member-link2" />
+                                        <div class="infotext col-12 col-lg-8">
+                                            <div>
+                                                <h3 id="member-name">Filip Milovanovic</h3>
+                                                <p id="member-role">Scrum Master</p>
+                                                <p id="member-team">CORE</p>
+                                                <div class="socials">
+                                                    <img id="member-link1" />
+                                                    <img id="member-link2" />
+                                                </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -151,12 +146,10 @@
                             <img class="d-block w-100" src="resources/logos/a1_logo.svg" alt="A1 Logo" height="250px;">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="resources/logos/easyname_logo_light.svg" alt="Easyname Logo"
-                                height="80px;">
+                            <img class="d-block w-100" src="resources/logos/easyname_logo_light.svg" alt="Easyname Logo" height="80px;">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="resources/logos/a1_logo.svg" alt="Third slide"
-                                height="250px;">
+                            <img class="d-block w-100" src="resources/logos/a1_logo.svg" alt="Third slide" height="250px;">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -176,10 +169,10 @@
 
                 <h2 class="headline col-8">KONTAKT</h2>
 
-                <?php if(isset($_GET['success'])){
-                                echo '<div class="success">Vielen Dank für deine Nachricht!</div>';
-                              } else {
-                                echo '<form action="send_mail.php" method="post" role="form"
+                <?php if (isset($_GET['success'])) {
+                    echo '<div class="success">Vielen Dank für deine Nachricht!</div>';
+                } else {
+                    echo '<form action="send_mail.php" method="post" role="form"
                                                     onsubmit="return submitUserForm();"
                                                   class="contact100-form validate-form col-8 col-lg-6">
                                                   <span class="contact100-form-title">
@@ -218,8 +211,8 @@
                                                       </button>
                                                   </div>
                                               </form>';
-                              }
-                              ?>
+                }
+                ?>
 
 
             </div>
@@ -244,12 +237,12 @@
                         <p>Copyright © 2020 All Rights Reserved</p>
                     </div>
                 </div>
-                
+
             </footer>
         </section>
     </main>
 
-    
+
     <script type="text/javascript" src="js/form.js"></script>
 </body>
 
