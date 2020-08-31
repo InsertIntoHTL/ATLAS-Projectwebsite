@@ -224,15 +224,15 @@
                 <h2 class="headline col-8">DATEIEN</h2>
             </div>
             <footer class="d-flex justify-content-center">
-                <div class="row col-10 col-md-10">
-                    <div class="col-12 col-md-4 text-md-right d-flex flex-column justify-content-center">
+                <div class="row col-10 col-lg-10">
+                    <div class="col-12 col-lg-4 text-lg-right d-flex flex-column justify-content-center">
                         <p><a href="./impressum.html">Impressum</a></p>
                         <p><a href="./datenschutz.html">Datenschutzerklärung</a></p>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <img src="./assets/images/ATLAS_Text_White.svg" alt="ATLAS Schriftzug">
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <p>Contact form taken from <a href="https://colorlib.com/wp/template/contact-form-v6/">colorlib.</a></p>
                         <p>Copyright © 2020 All Rights Reserved</p>
                     </div>
