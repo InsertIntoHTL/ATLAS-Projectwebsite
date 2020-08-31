@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc6fceea-5b7f-4fcf-9e35-d07d9e24067e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/send_mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/send_mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
@@ -79,7 +76,8 @@
       <workItem from="1597229737760" duration="8389000" />
       <workItem from="1597310877796" duration="252000" />
       <workItem from="1597311137200" duration="9834000" />
-      <workItem from="1598693341546" duration="7766000" />
+      <workItem from="1598693341546" duration="8104000" />
+      <workItem from="1598882698955" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="menu erstellt">
       <created>1597267621714</created>
@@ -88,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597267621714</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Favicon">
+      <created>1598702037006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598702037006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,13 +104,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="menu erstellt" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu erstellt" />
+    <MESSAGE value="Added Favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Favicon" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="6" key="CommitChangelistDialog2" timestamp="1597267620689">
+    <state x="585" y="6" key="CommitChangelistDialog2" timestamp="1598702035877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597267620689" />
+    <state x="585" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598702035877" />
     <state x="627" y="308" key="EditFileWatcherDialog" timestamp="1596553363195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -126,10 +132,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597319537582" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597267626049">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598702039538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597267626049" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598702039538" />
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597264231784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

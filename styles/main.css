@@ -708,13 +708,18 @@ section .headline {
   color: #fff;
 }
 @media (max-width: 992px) {
-  #Contact .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
+  #Contact .alert-validate:hover:before {
+    visibility: hidden;
   }
 }
 #Contact .g-recaptcha {
   margin-bottom: 0.6em !important;
+}
+@media (max-width: 768px) {
+  #Contact .g-recaptcha {
+    transform: scale(0.7) translateX(-65px);
+    margin-left: 0;
+  }
 }
 #Contact .spacer {
   width: 600px;

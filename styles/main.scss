@@ -823,6 +823,8 @@ section {
         -o-transition: opacity 0.4s;
         -moz-transition: opacity 0.4s;
         transition: opacity 0.4s;
+
+
     }
 
     .alert-validate::after {
@@ -852,14 +854,18 @@ section {
     }
 
     @media (max-width: 992px) {
-        .alert-validate::before {
-            visibility: visible;
-            opacity: 1;
+        .alert-validate:hover:before {
+            visibility: hidden;
         }
     }
 
     .g-recaptcha {
         margin-bottom: 0.6em!important;
+
+        @media (max-width: 768px) {
+            transform: scale(0.7) translateX(-65px);
+            margin-left: 0;
+        }
     }
 
     .spacer {
