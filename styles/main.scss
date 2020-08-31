@@ -1099,17 +1099,13 @@ section {
         }
 
         @media (max-width: 768px) {
-            font-size: 1.4em;
+            font-size: 1.2em;
         }
     }
 
     @media (max-width: 992px) {
         .files-container{
             margin-top: -10vh;
-            
-            h4{
-                font-size: 20px;
-            }
         }
     }
 
