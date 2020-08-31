@@ -35,7 +35,7 @@ header {
   height: 60px;
   display: block;
   position: fixed;
-  margin: 2em 6vw 0 6vw;
+  margin: 4em 6vw 0 6vw;
   width: 88vw;
   z-index: 12;
 }
@@ -67,7 +67,7 @@ header #burger-wrapper span:nth-child(2) {
 @media (max-width: 768px) {
   header {
     height: 50px;
-    margin: 1em 6vw 0 6vw;
+    margin: 2em 6vw 0 6vw;
   }
   header img {
     height: 40px;
