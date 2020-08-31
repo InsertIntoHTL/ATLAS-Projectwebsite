@@ -220,9 +220,67 @@
         </section>
 
         <section id="Files" class="col-12">
-            <div class="row d-flex justify-content-center">
+            <div class="files-container row d-flex justify-content-center">
                 <h2 class="headline col-8">DATEIEN</h2>
+
+                <div class="col-8 row">
+                    <div class="single-file col-12 col-lg-6 row">
+                        <a href="./resources/files/da_ansuchen_core.pdf" class="col-4 file-icon" download>
+                            <i class="fas fa-file" id="file-normal"></i>
+                            <i class="fas fa-file-download" id="file-hover"></i>
+                        </a>
+                        <div class="col-8">
+                            <a href="./resources/files/da_ansuchen_core.pdf" download>
+                                <h4 class="download-link">DA-Ansuchen</h4>
+                            </a>
+                            <p>CORE</p>
+                        </div>
+                    </div>
+
+                    <div class="single-file col-12 col-lg-6 row">
+                        <a href="./resources/files/da_ansuchen_sphere.pdf" class="col-4 file-icon" download>
+                            <i class="fas fa-file" id="file-normal"></i>
+                            <i class="fas fa-file-download" id="file-hover"></i>
+                        </a>
+                        <div class="col-8">
+                            <a href="./resources/files/da_ansuchen_sphere.pdf" download>
+                                <h4 class="download-link">DA-Ansuchen</h4>
+                            </a>
+                            <p>SPHERE</p>
+                        </div>
+                    </div>
+
+                    <div class="single-file col-12 col-lg-6 row">
+                        <a href="" class="col-4 file-icon" download>
+                            <i class="fas fa-file" id="file-normal"></i>
+                            <i class="fas fa-file-download" id="file-hover"></i>
+                        </a>
+                        <div class="col-8">
+                            <a href="" download>
+                                <h4 class="download-link">DA-Antrag TODO</h4>
+                            </a>
+                            <p>CORE</p>
+                        </div>
+                    </div>
+
+                    <div class="single-file col-12 col-lg-6 row">
+                        <a href="" class="col-4 file-icon" download>
+                            <i class="fas fa-file" id="file-normal"></i>
+                            <i class="fas fa-file-download" id="file-hover"></i>
+                        </a>
+                        <div class="col-8">
+                            <a href="" download>
+                                <h4 class="download-link">DA-Antrag TODO</h4>
+                            </a>
+                            <p>SPHERE</p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+
+
             <footer class="d-flex justify-content-center">
                 <div class="row col-10 col-lg-10">
                     <div class="col-12 col-lg-4 text-lg-right d-flex flex-column justify-content-center">

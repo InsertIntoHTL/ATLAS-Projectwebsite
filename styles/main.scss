@@ -114,7 +114,7 @@ header {
         letter-spacing: 5px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
         display: none;
     }
 }
@@ -180,7 +180,7 @@ section {
         color: var(--mid-blue);
         font-style: italic;
         font-size: 2.5em;
-        margin: 1em 0 .5em 0;
+        margin: 1em 0 1em 0;
 
         @media (min-width: 992px) {
             display: none;
@@ -1030,6 +1030,90 @@ section {
 }
 
 #Files{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    .single-file{
+        .file-icon{
+            font-size: 3em;
+            color: var(--mid-blue);
+
+            i{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                transition-duration: .3s;
+            }
+
+            &:hover{
+                #file-normal{
+                    opacity: 0;
+                }
+            }
+        }
+
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h4{
+                font-size: 1.4em;
+            }
+
+            .download-link{
+                color: #fff;
+                text-decoration: none;
+                position: relative;
+                cursor: pointer;
+                display: inline-block;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 0%;
+                    height: 3px;
+                    border-radius: 3px;
+                    background-color: var(--mid-blue);
+                    left: 0;
+                    bottom: -2px;
+                    transition-duration: .3s;
+                }
+    
+                &:hover{
+                    &:after{
+                        width: 100%;
+                    }
+                }
+            }
+
+            p{
+                font-style: italic;
+                font-weight: 700;
+                color: var(--mid-blue);
+            }
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.4em;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .files-container{
+            margin-top: -10vh;
+            
+            h4{
+                font-size: 20px;
+            }
+        }
+    }
+
+
     footer{
         position: absolute;
         bottom: 0;
