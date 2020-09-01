@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6fceea-5b7f-4fcf-9e35-d07d9e24067e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/demo.9ce5c2ea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/demo1.151408fb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/base.98fd6c19.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/button.f89f9832.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/OneDrive - HTL Wien 3 Rennweg/Websites/Examples/NiceSimpleContactForm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -44,15 +46,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\schule\atlas\resources\logos" />
-      <recent name="C:\xampp\htdocs\schule\atlas\styles" />
-      <recent name="E:\OneDrive - HTL Wien 3 Rennweg\Schule\5. Klasse\Diplomarbeit\Projektwebsite\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\schule\atlas-website\js" />
+      <recent name="C:\xampp\htdocs\schule\atlas-website\styles" />
       <recent name="C:\xampp\htdocs\schule\atlas\fonts" />
       <recent name="C:\xampp\htdocs\schule\atlas\resources\logos" />
       <recent name="C:\xampp\htdocs\schule\atlas\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\schule\atlas\resources\logos" />
+      <recent name="C:\xampp\htdocs\schule\atlas\styles" />
       <recent name="E:\OneDrive - HTL Wien 3 Rennweg\Schule\5. Klasse\Diplomarbeit\Projektwebsite\resources" />
     </key>
   </component>
@@ -77,7 +80,8 @@
       <workItem from="1597310877796" duration="252000" />
       <workItem from="1597311137200" duration="9834000" />
       <workItem from="1598693341546" duration="8104000" />
-      <workItem from="1598882698955" duration="695000" />
+      <workItem from="1598882698955" duration="1150000" />
+      <workItem from="1598967002520" duration="1841000" />
     </task>
     <task id="LOCAL-00001" summary="menu erstellt">
       <created>1597267621714</created>
@@ -93,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598702037006</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed Recaptcha mobile">
+      <created>1598883516272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598883516272</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed Margin of header">
+      <created>1598883628149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598883628149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,13 +123,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="menu erstellt" />
     <MESSAGE value="Added Favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Favicon" />
+    <MESSAGE value="Fixed Recaptcha mobile" />
+    <MESSAGE value="Changed Margin of header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Margin of header" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="6" key="CommitChangelistDialog2" timestamp="1598702035877">
+    <state x="585" y="6" key="CommitChangelistDialog2" timestamp="1598883627185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598702035877" />
+    <state x="585" y="6" key="CommitChangelistDialog2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598883627185" />
     <state x="627" y="308" key="EditFileWatcherDialog" timestamp="1596553363195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,10 +152,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597319537582" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598702039538">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598883629747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598702039538" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598883629747" />
     <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597264231784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

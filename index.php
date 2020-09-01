@@ -38,6 +38,10 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="./styles/main.css" />
 
+    <!-- Button -->
+	<link rel="stylesheet" type="text/css" href="styles/base.98fd6c19.css">
+	<link rel="stylesheet" type="text/css" href="styles/button.f89f9832.css">
+
     <!--FullPageScrollPureJS -->
     <link rel="stylesheet" type="text/css" href="styles/full-page-scroll.min.css" />
     <script src="js/full-page-scroll.min.js"></script>
@@ -47,6 +51,7 @@
 
     <script src="./js/member.js"></script>
     <script src="./js/app.js"></script>
+
 </head>
 
 <body>
@@ -229,6 +234,12 @@
         <section id="Files" class="col-12">
             <div class="row d-flex justify-content-center">
                 <h2 class="headline col-8">DATEIEN</h2>
+
+				<a href="https://www.google.com" class="button">
+					<span class="button__text">
+						<span class="button__text-inner">Send</span>
+					</span>
+				</a>
             </div>
             <footer class="d-flex justify-content-center">
                 <div class="row col-10 col-md-10">
@@ -249,8 +260,14 @@
         </section>
     </main>
 
+		<svg class="cursor" width="25" height="25" viewBox="0 0 25 25">
+			<circle class="cursor__inner" cx="12.5" cy="12.5" r="6.25"></circle>
+		</svg>
     
     <script type="text/javascript" src="js/form.js"></script>
+
+	<script src="js/demo.9ce5c2ea.js"></script>
+	<script src="js/demo1.151408fb.js"></script>
 </body>
 
 </html>
