@@ -8,7 +8,7 @@
 	font-size: 12px;
 }
 
-body {
+/*body {
 	margin: 0;
 	--color-text: #111;
 	--color-bg: #e5e3df;
@@ -17,7 +17,7 @@ body {
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: tenon, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-}
+}*/
 
 .button {
 	position: relative;
@@ -86,7 +86,7 @@ a:focus {
 	text-decoration: none;
 }
 
-main {
+/*main {
 	background-color: inherit;
 	display: grid;
 	height: 100vh;
@@ -100,7 +100,7 @@ main {
 						'content'
 						'demos';
 
-}
+}*/
 
 .header {
 	grid-area: header;
@@ -175,8 +175,8 @@ main {
 		pointer-events: none;
 	}
 	.cursor__inner {
-		fill: var(--cursor-fill);
-		stroke: var(--cursor-stroke);
+		fill: #FFF;
+		stroke: #FFF;
 		stroke-width: var(--cursor-stroke-width);
 	}
 	.credits {
