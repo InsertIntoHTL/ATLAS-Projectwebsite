@@ -114,7 +114,7 @@ header {
         letter-spacing: 5px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
         display: none;
     }
 }
@@ -180,9 +180,9 @@ section {
         color: var(--mid-blue);
         font-style: italic;
         font-size: 2.5em;
-        margin: 1em 0 .5em 0;
+        margin: 1em 0 1em 0;
 
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
             display: none;
         }
     }
@@ -243,7 +243,7 @@ section {
             width: 26px;
             height: 46px;
             border-radius: 14px;
-            background-color: #000;
+            background-color: var(--dark-background);
 
             span {
                 position: absolute;
@@ -334,13 +334,23 @@ section {
     justify-content: center;
 
     .infotext {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
 
-        p {
-            margin: 0;
+            p {
+                margin: 0;
+            } 
         }
+
+        @media (max-width: 992px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        
     }
 
     .membercard {
@@ -369,12 +379,14 @@ section {
 
         img {
             width: 100%;
+            max-width: 120px;
             height: auto;
+            max-height: 120px;
             border-radius: 50%;
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
         .profile-picture {
             display: flex;
             justify-content: center;
@@ -1012,12 +1024,92 @@ section {
 }
 
 .dots {
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
         display: none;
     }
 }
 
 #Files{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+    .single-file{
+        .file-icon{
+            font-size: 3em;
+            color: var(--mid-blue);
+
+            i{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                transition-duration: .3s;
+            }
+
+            &:hover{
+                #file-normal{
+                    opacity: 0;
+                }
+            }
+        }
+
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h4{
+                font-size: 1.4em;
+            }
+
+            .download-link{
+                color: #fff;
+                text-decoration: none;
+                position: relative;
+                cursor: pointer;
+                display: inline-block;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 0%;
+                    height: 3px;
+                    border-radius: 3px;
+                    background-color: var(--mid-blue);
+                    left: 0;
+                    bottom: -2px;
+                    transition-duration: .3s;
+                }
+    
+                &:hover{
+                    &:after{
+                        width: 100%;
+                    }
+                }
+            }
+
+            p{
+                font-style: italic;
+                font-weight: 700;
+                color: var(--mid-blue);
+            }
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.2em;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .files-container{
+            margin-top: -10vh;
+        }
+    }
+
+
     footer{
         position: absolute;
         bottom: 0;
@@ -1036,12 +1128,12 @@ section {
             left: 50%;
             transform: translate(-50%, -50%);
 
-            @media (max-width: 768px) {
+            @media (max-width: 992px) {
                  display: none;
             }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 992px) {
             font-size: 12px;
         }
 
