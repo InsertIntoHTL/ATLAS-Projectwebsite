@@ -420,6 +420,16 @@ section .headline {
   }
 }
 
+#Team .team-prev {
+  width: 100%;
+  margin-top: -2em;
+}
+
+#Team .team-next {
+  width: 100%;
+  margin-top: -2em;
+}
+
 #Team .membercard {
   font-size: 1.6em;
 }

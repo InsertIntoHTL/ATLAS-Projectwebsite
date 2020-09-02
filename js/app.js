@@ -29,7 +29,7 @@ function changeMember(member) {
 }
 
 function nextMember() {
-    if (currentMember = 5) {
+    if (currentMember === 5) {
         changeMember(0)
     } else {
         changeMember(currentMember + 1);
@@ -37,7 +37,7 @@ function nextMember() {
 }
 
 function prevMember() {
-    if (currentMember = 0) {
+    if (currentMember === 0) {
         changeMember(5)
     } else {
         changeMember(currentMember - 1);

@@ -31,8 +31,8 @@
     <link rel="stylesheet" href="./styles/main.css" />
 
     <!-- Button -->
-	<link rel="stylesheet" type="text/css" href="styles/base.98fd6c19.css">
-	<link rel="stylesheet" type="text/css" href="styles/button.f89f9832.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.98fd6c19.css">
+    <link rel="stylesheet" type="text/css" href="styles/button.f89f9832.css">
 
     <!--FullPageScrollPureJS -->
     <link rel="stylesheet" type="text/css" href="styles/full-page-scroll.min.css" />
@@ -110,8 +110,13 @@
                 <h2 class="headline col-8">TEAM</h2>
                 <div class="col-8">
                     <div class="row">
-                        <div class="col-1" id="prev"></div>
-                        <div class="col-10 col-lg-6">
+                        <div class="col-3 col-lg-1" id="prev">
+                            <div class="carousel-control-prev team-prev" onclick="prevMember()">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-6">
                             <div class="row">
                                 <div class="membercard col-12">
                                     <div class="row">
@@ -133,7 +138,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-1" id="next"></div>
+                        <div class="col-3 col-lg-1" id="next">
+                            <div class="carousel-control-next team-next" onclick="nextMember()">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </div>
+                        </div>
                         <div class="spinning-spheres col-0 col-md-4">
                             <canvas id="spheres"></canvas>
                         </div>
@@ -289,11 +299,11 @@
 
 
 
-				<a href="https://www.google.com" class="button">
-					<span class="button__text">
-						<span class="button__text-inner">Send</span>
-					</span>
-				</a>
+                <a href="https://www.google.com" class="button">
+                    <span class="button__text">
+                        <span class="button__text-inner">Send</span>
+                    </span>
+                </a>
             </div>
             <footer class="d-flex justify-content-center">
                 <div class="row col-10 col-lg-10">
@@ -314,15 +324,15 @@
         </section>
     </main>
 
-	<svg class="cursor" width="25" height="25" viewBox="0 0 25 25">
-		<circle class="cursor__inner" cx="12.5" cy="12.5" r="6.25" fill="green"></circle>
-	</svg>
+    <svg class="cursor" width="25" height="25" viewBox="0 0 25 25">
+        <circle class="cursor__inner" cx="12.5" cy="12.5" r="6.25" fill="green"></circle>
+    </svg>
 
     <script type="text/javascript" src="js/form.js"></script>
     <script type="module" src="js/spheres.js"></script>
 
-	<script src="js/demo.9ce5c2ea.js"></script>
-	<script src="js/demo1.151408fb.js"></script>
+    <script src="js/demo.9ce5c2ea.js"></script>
+    <script src="js/demo1.151408fb.js"></script>
 </body>
 
 </html>
