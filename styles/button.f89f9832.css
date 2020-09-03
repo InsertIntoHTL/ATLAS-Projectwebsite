@@ -21,7 +21,7 @@ body {
 	border-color: var(--button-stroke);
 	border-style: solid;
 	color: var(--button-text);
-	background: var(--button-bg);
+	background: #fff;
 	border-radius: var(--button-border-radius);
 	min-width: 12rem;
 	height: 5rem;

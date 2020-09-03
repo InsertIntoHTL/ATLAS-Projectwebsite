@@ -14,11 +14,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <!--Barba.js-->
-    <!-- unpkg -->
-    <script src="https://unpkg.com/@barba/core"></script>
-    <!-- jsdelivr -->
-    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="./resources/fontawesome-free-5.14.0-web/css/all.css" />
@@ -42,11 +37,7 @@
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
     <!-- Three.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js
-
-
-
-"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>
 
     <script src="./js/member.js"></script>
     <script src="./js/app.js"></script>
@@ -324,15 +315,16 @@
         </section>
     </main>
 
-    <svg class="cursor" width="25" height="25" viewBox="0 0 25 25">
-        <circle class="cursor__inner" cx="12.5" cy="12.5" r="6.25" fill="green"></circle>
-    </svg>
+	<svg class="cursor" width="25" height="25" viewBox="0 0 25 25">
+		<circle class="cursor__inner" cx="12.5" cy="12.5" r="6.25"></circle>
+	</svg>
 
     <script type="text/javascript" src="js/form.js"></script>
     <script type="module" src="js/spheres.js"></script>
 
-    <script src="js/demo.9ce5c2ea.js"></script>
-    <script src="js/demo1.151408fb.js"></script>
+	<script src="js/demo.9ce5c2ea.js"></script>
+	<script src="js/demo1.151408fb.js"></script>
+
 </body>
 
 </html>

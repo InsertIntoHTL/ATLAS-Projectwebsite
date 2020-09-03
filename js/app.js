@@ -51,8 +51,47 @@ $(document).ready(function () {
 });
 
 function menu() {
-    $("#menu").toggle();
+    $("#menu").fadeToggle("fast");
+    burgerToggle = !burgerToggle;
+    toggleBurgerWrapper();
 }
+
+
+/* Menu toggle */
+
+var mobile = window.matchMedia("(max-width: 768px)");
+let burgerToggle = false;
+
+function toggleBurgerWrapper() {
+    let firstBurgerSpan = $("#burger-wrapper span:nth-of-type(1)").get(0);
+    let secondBurgerSpan = $("#burger-wrapper span:nth-of-type(2)").get(0);
+    let thirdBurgerSpan = $("#burger-wrapper span:nth-of-type(3)").get(0);
+    if(mobile.matches) {
+        if(burgerToggle) {
+            firstBurgerSpan.style.transform = "rotate(45deg) translateY(14px)";
+            secondBurgerSpan.style.opacity = "0";
+            thirdBurgerSpan.style.transform = "rotate(-45deg) translateY(-14px)";
+        } else {
+            firstBurgerSpan.style.transform = "rotate(0) translateY(0)";
+            secondBurgerSpan.style.opacity = "1";
+            thirdBurgerSpan.style.transform = "rotate(0) translateY(0)";
+        }
+    } else {
+        if(burgerToggle) {
+            firstBurgerSpan.style.transform = "rotate(45deg) translateY(21px)";
+            secondBurgerSpan.style.opacity = "0";
+            thirdBurgerSpan.style.transform = "rotate(-45deg) translateY(-21px)";
+        } else {
+            firstBurgerSpan.style.transform = "rotate(0) translateY(0)";
+            secondBurgerSpan.style.opacity = "1";
+            thirdBurgerSpan.style.transform = "rotate(0) translateY(0)";
+        }
+    }
+}
+
+window.addEventListener('resize', toggleBurgerWrapper)
+
+
 
 
 
