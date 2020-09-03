@@ -51,6 +51,20 @@ body main h2 {
   font-size: 2em;
   color: #299edc;
   margin-top: 2em;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+body main h3 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  font-style: italic;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 @media (max-width: 768px) {
@@ -61,12 +75,16 @@ body main h2 {
   body main h2 {
     font-size: 1.6em;
   }
+  body main h3 {
+    font-size: 1.2em;
+  }
 }
 
 body main a {
   color: #299edc;
   text-decoration: none;
   position: relative;
+  overflow-wrap: break-word;
 }
 
 body main a:after {
