@@ -35,6 +35,9 @@
     <!-- Three.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>
 
+    <!-- TouchSwipe -->
+    <script src="./js/jquery.touchSwipe.min.js"></script>
+
     <script src="./js/member.js"></script>
     <script src="./js/app.js"></script>
 </head>
@@ -105,7 +108,7 @@
                         </div>
                         <div class="col-6 col-lg-6">
                             <div class="row">
-                                <div class="membercard col-12">
+                                <div class="membercard col-12" id="membercard">
                                     <div class="row">
                                         <div class="profile-picture col-12 col-lg-4">
                                             <img id="member-pic" src="./assets/images/team/filip.jpeg" />

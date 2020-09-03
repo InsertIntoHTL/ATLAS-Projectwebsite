@@ -425,9 +425,21 @@ section .headline {
   margin-top: -2em;
 }
 
+@media (max-width: 992px) {
+  #Team .team-prev {
+    width: 12%;
+  }
+}
+
 #Team .team-next {
   width: 100%;
   margin-top: -2em;
+}
+
+@media (max-width: 992px) {
+  #Team .team-next {
+    width: 12%;
+  }
 }
 
 #Team .membercard {

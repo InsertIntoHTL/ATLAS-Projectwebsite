@@ -44,6 +44,27 @@ function prevMember() {
     }
 }
 
+// Swipe function
+
+$(function() {
+    $('#membercard').swipe( {
+    //Generic swipe handler for all directions
+    swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+      if(direction == "right") {
+        prevMember();
+      } 
+      if(direction == "left"){
+        nextMember();
+      }
+    }
+  });
+});
+
+
+
+
+
+
 /* Menu */
 $(document).ready(function () {
     $("#menu").hide();
