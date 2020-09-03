@@ -21,14 +21,14 @@ scene.add( circle );
 
 
 var width = 80,
-    number = 8;
+    number = 20;
 
 for(let i = 0; i < number; i++){
-    let circleGeometry = new THREE.CircleGeometry( 10, 128 );
+    let circleGeometry = new THREE.CircleGeometry( 5, 128 );
     let circleMaterial = new THREE.MeshBasicMaterial( { color: 0xffffff } );
     let circleMesh = new THREE.Mesh( circleGeometry, circleMaterial );
     scene.add( circleMesh );
-    circleMesh.position.set(i+5, i+5, 1);
+    circleMesh.position.set( i, width/2 - number*i, 1);
 }
 
 
