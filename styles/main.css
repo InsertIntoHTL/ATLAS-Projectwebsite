@@ -136,11 +136,12 @@ header #burger-wrapper span:nth-child(2) {
   text-shadow: 0px 0px 70px rgba(255, 255, 255, 0.8);
 }
 .menu div p .active {
-  color: var(--dark-background);
+  color: var(--dark-background) !important;
   -webkit-text-stroke-width: 0.03em;
   -webkit-text-stroke-color: var(--mid-blue);
 }
 .menu div p .active:hover {
+  color: var(--dark-background) !important;
   text-shadow: 0px 0px 70px #299edc;
 }
 
