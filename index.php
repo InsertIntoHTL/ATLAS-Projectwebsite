@@ -77,10 +77,10 @@
             </div>
         </section>
 
-        <section id="About" class="col-xs-12">
+        <section id="About" class="col-12">
             <div class="row d-flex justify-content-center">
-                <h2 class="headline col-8">INFO</h2>
-                <p class="col-8 col-lg-6">
+                <h2 class="headline col-10 col-md-8">INFO</h2>
+                <p class="col-10 col-md-8 col-lg-6">
                     Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt im komplett
                     verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter
                     Deich. Vogel Quax zwickt Johnys Pferd Bim. Sylvia wagt quick den Jux bei Pforzheim. Polyfon
@@ -94,8 +94,8 @@
         </section>
         <section id="Team" class="col-12">
             <div class="row d-flex justify-content-center">
-                <h2 class="headline col-8">TEAM</h2>
-                <div class="col-8">
+                <h2 class="headline col-10 col-md-8">TEAM</h2>
+                <div class="col-10 col-md-8">
                     <div class="row">
                         <div class="col-3 col-lg-1 btn" id="prev">
                             <div class="carousel-control-prev team-prev" onclick="prevMember()">
@@ -141,7 +141,7 @@
         </section>
         <section id="Sponsors" class="col-12">
             <div class="row d-flex justify-content-center">
-                <h2 class="headline col-8">SPONSOREN</h2>
+                <h2 class="headline col-10 col-md-8">SPONSOREN</h2>
                 <div id="carousel" class="carousel slide col-8" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -174,14 +174,14 @@
         <section id="Contact" class="col-12">
             <div class="row d-flex justify-content-center">
 
-                <h2 class="headline col-8">KONTAKT</h2>
+                <h2 class="headline col-10 col-md-8">KONTAKT</h2>
 
                 <?php if (isset($_GET['success'])) {
                     echo '<div class="success">Vielen Dank für deine Nachricht!</div>';
                 } else {
                     echo '<form action="send_mail.php" method="post" role="form"
                                                     onsubmit="return submitUserForm();"
-                                                  class="contact100-form validate-form col-8 col-lg-6">
+                                                  class="contact100-form validate-form col-10 col-md-8 col-lg-6">
                                                   <span class="contact100-form-title">
                                                       Benachrichtige uns
                                                   </span>
@@ -199,7 +199,7 @@
                                                       <span class="focus-input100"></span>
                                                   </div>
 
-                                                  <div class="wrap-input100 validate-input" data-validate="Message is required">
+                                                  <div class="wrap-input100 validate-input" id="inputbox" data-validate="Message is required">
                                                       <span class="label-input100">Nachricht</span>
                                                       <textarea class="input100" name="message" placeholder="Teile uns etwas mit..."></textarea>
                                                       <span class="focus-input100"></span>
@@ -228,9 +228,9 @@
 
         <section id="Files" class="col-12">
             <div class="files-container row d-flex justify-content-center">
-                <h2 class="headline col-8">DATEIEN</h2>
+                <h2 class="headline col-10 col-md-8">DATEIEN</h2>
 
-                <div class="col-8 row">
+                <div class="col-10 col-md-8 row">
                     <div class="single-file col-12 col-lg-6 row">
                         <a href="./resources/files/da_ansuchen_core.pdf" class="col-4 file-icon btn" download>
                             <i class="fas fa-file" id="file-normal"></i>
@@ -298,7 +298,7 @@
                     </div>
                     <div class="col-12 col-lg-4">
                         <p>Contact form taken from <a href="https://colorlib.com/wp/template/contact-form-v6/">colorlib.</a></p>
-                        <p>Copyright © 2020 All Rights Reserved</p>
+                        <p id="last-p">Copyright © 2020 All Rights Reserved</p>
                     </div>
                 </div>
 
