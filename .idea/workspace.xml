@@ -4,8 +4,10 @@
     <list default="true" id="fc6fceea-5b7f-4fcf-9e35-d07d9e24067e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/base.98fd6c19.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/base.98fd6c19.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/button.f89f9832.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/button.f89f9832.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <workItem from="1598882698955" duration="1150000" />
       <workItem from="1598967002520" duration="3368000" />
       <workItem from="1599056450556" duration="1950000" />
-      <workItem from="1599127596710" duration="1030000" />
+      <workItem from="1599127596710" duration="6444000" />
     </task>
     <task id="LOCAL-00001" summary="menu erstellt">
       <created>1597267621714</created>
@@ -140,14 +142,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1597320647155" />
-    <state x="0" y="59" width="1920" height="868" key="MergeDialog" timestamp="1598969786255">
+    <state x="0" y="59" width="1920" height="868" key="MergeDialog" timestamp="1599128775573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="59" width="1920" height="868" key="MergeDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598969786255" />
-    <state x="840" y="386" width="442" height="268" key="MultipleFileMergeDialog" timestamp="1598969786263">
+    <state x="0" y="59" width="1920" height="868" key="MergeDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1599128775573" />
+    <state x="840" y="386" width="442" height="268" key="MultipleFileMergeDialog" timestamp="1599128775580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="840" y="386" width="442" height="268" key="MultipleFileMergeDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598969786263" />
+    <state x="840" y="386" width="442" height="268" key="MultipleFileMergeDialog/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1599128775580" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1597319537582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,9 +158,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598883629747" />
-    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598969607903">
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599128672072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1598969607903" />
+    <state x="767" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1599128672072" />
   </component>
 </project>

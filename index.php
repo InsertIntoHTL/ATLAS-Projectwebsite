@@ -37,11 +37,7 @@
     <script src='https://www.google.com/recaptcha/api.js' async defer></script>
 
     <!-- Three.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js
-
-
-
-"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"></script>
 
     <script src="./js/member.js"></script>
     <script src="./js/app.js"></script>
