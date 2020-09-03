@@ -1,0 +1,63 @@
+body {
+  background-color: #111;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+body header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 88vw;
+  height: 60px;
+  margin: 4em 6vw 0 6vw;
+}
+
+body header img {
+  height: 60px;
+  display: inline-block;
+}
+
+body header h1 {
+  display: inline-block;
+  font-size: 2em;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  body header {
+    height: 50px;
+    margin: 1.5em 6vw 0 6vw;
+  }
+  body header img {
+    height: 50px;
+  }
+  body header h1 {
+    font-size: 20px;
+  }
+}
+
+body div {
+  margin: 12em 0 3em 0;
+}
+
+body div h2 {
+  font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  body div {
+    margin: 8em 0 3em 0;
+    font-size: 14px;
+  }
+  body div h2 {
+    font-size: 1.6em;
+  }
+}
+/*# sourceMappingURL=imprint.css.map */
