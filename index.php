@@ -294,7 +294,7 @@
                 <div class="row col-10 col-lg-10">
                     <div class="col-12 col-lg-4 text-lg-right d-flex flex-column justify-content-center">
                         <p><a href="./imprint.html">Impressum</a></p>
-                        <p><a href="./datenschutz.html">Datenschutzerklärung</a></p>
+                        <p><a href="./privacy.html">Datenschutzerklärung</a></p>
                     </div>
                     <div class="col-12 col-lg-4">
                         <img src="./assets/images/ATLAS_Text_White.svg" alt="ATLAS Schriftzug">
