@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/base.98fd6c19.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/base.98fd6c19.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/button.f89f9832.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/button.f89f9832.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,9 @@
       <workItem from="1597311137200" duration="9834000" />
       <workItem from="1598693341546" duration="8104000" />
       <workItem from="1598882698955" duration="1150000" />
-      <workItem from="1598967002520" duration="2476000" />
+      <workItem from="1598967002520" duration="3368000" />
+      <workItem from="1599056450556" duration="1950000" />
+      <workItem from="1599127596710" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="menu erstellt">
       <created>1597267621714</created>
