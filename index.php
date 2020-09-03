@@ -25,10 +25,6 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="./styles/main.css" />
 
-    <!-- Button -->
-    <link rel="stylesheet" type="text/css" href="styles/base.98fd6c19.css">
-    <link rel="stylesheet" type="text/css" href="styles/button.f89f9832.css">
-
     <!--FullPageScrollPureJS -->
     <link rel="stylesheet" type="text/css" href="styles/full-page-scroll.min.css" />
     <script src="js/full-page-scroll.min.js"></script>
@@ -46,8 +42,8 @@
 <body>
 
     <header>
-        <a href="#0"><img src="./assets/images/ATLAS_Logo.svg" alt="ATLAS-Logo" /></a>
-        <div id="burger-wrapper" onclick="menu()">
+        <a href="#0"><img src="./assets/images/ATLAS_Logo.svg" alt="ATLAS-Logo" class="btn" /></a>
+        <div id="burger-wrapper" onclick="menu()" class="btn">
             <span></span>
             <span></span>
             <span></span>
@@ -60,12 +56,12 @@
 
     <div id="menu" class="menu hidden">
         <div id="links">
-            <p><a href="#0" class="menu-link active" onclick="menu()">HOME</a></p>
-            <p><a href="#1" class="menu-link" onclick="menu()">INFO</a></p>
-            <p><a href="#2" class="menu-link" onclick="menu()">TEAM</a></p>
-            <p><a href="#3" class="menu-link" onclick="menu()">SPONSOREN</a></p>
-            <p><a href="#4" class="menu-link" onclick="menu()">KONTAKT</a></p>
-            <p><a href="#4" class="menu-link" onclick="menu()">DATEIEN</a></p>
+            <p><a href="#0" class="menu-link btn active" onclick="menu()">HOME</a></p>
+            <p><a href="#1" class="menu-link btn" onclick="menu()">INFO</a></p>
+            <p><a href="#2" class="menu-link btn" onclick="menu()">TEAM</a></p>
+            <p><a href="#3" class="menu-link btn" onclick="menu()">SPONSOREN</a></p>
+            <p><a href="#4" class="menu-link btn" onclick="menu()">KONTAKT</a></p>
+            <p><a href="#4" class="menu-link btn" onclick="menu()">DATEIEN</a></p>
         </div>
     </div>
 
@@ -101,7 +97,7 @@
                 <h2 class="headline col-8">TEAM</h2>
                 <div class="col-8">
                     <div class="row">
-                        <div class="col-3 col-lg-1" id="prev">
+                        <div class="col-3 col-lg-1 btn" id="prev">
                             <div class="carousel-control-prev team-prev" onclick="prevMember()">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
@@ -129,7 +125,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 col-lg-1" id="next">
+                        <div class="col-3 col-lg-1 btn" id="next">
                             <div class="carousel-control-next team-next" onclick="nextMember()">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
@@ -163,11 +159,11 @@
                             <img class="d-block w-100" src="resources/logos/a1_logo.svg" alt="Third slide" height="250px;">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <a class="carousel-control-prev btn" href="#carousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <a class="carousel-control-next btn" href="#carousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -236,7 +232,7 @@
 
                 <div class="col-8 row">
                     <div class="single-file col-12 col-lg-6 row">
-                        <a href="./resources/files/da_ansuchen_core.pdf" class="col-4 file-icon" download>
+                        <a href="./resources/files/da_ansuchen_core.pdf" class="col-4 file-icon btn" download>
                             <i class="fas fa-file" id="file-normal"></i>
                             <i class="fas fa-file-download" id="file-hover"></i>
                         </a>
@@ -249,7 +245,7 @@
                     </div>
 
                     <div class="single-file col-12 col-lg-6 row">
-                        <a href="./resources/files/da_ansuchen_sphere.pdf" class="col-4 file-icon" download>
+                        <a href="./resources/files/da_ansuchen_sphere.pdf" class="col-4 file-icon btn" download>
                             <i class="fas fa-file" id="file-normal"></i>
                             <i class="fas fa-file-download" id="file-hover"></i>
                         </a>
@@ -262,7 +258,7 @@
                     </div>
 
                     <div class="single-file col-12 col-lg-6 row">
-                        <a href="" class="col-4 file-icon" download>
+                        <a href="" class="col-4 file-icon btn" download>
                             <i class="fas fa-file" id="file-normal"></i>
                             <i class="fas fa-file-download" id="file-hover"></i>
                         </a>
@@ -275,7 +271,7 @@
                     </div>
 
                     <div class="single-file col-12 col-lg-6 row">
-                        <a href="" class="col-4 file-icon" download>
+                        <a href="" class="col-4 file-icon btn" download>
                             <i class="fas fa-file" id="file-normal"></i>
                             <i class="fas fa-file-download" id="file-hover"></i>
                         </a>
@@ -290,11 +286,6 @@
 
 
 
-                <a href="https://www.google.com" class="button">
-                    <span class="button__text">
-                        <span class="button__text-inner">Send</span>
-                    </span>
-                </a>
             </div>
             <footer class="d-flex justify-content-center">
                 <div class="row col-10 col-lg-10">
@@ -322,8 +313,9 @@
     <script type="text/javascript" src="js/form.js"></script>
     <script type="module" src="js/spheres.js"></script>
 
-	<script src="js/demo.9ce5c2ea.js"></script>
-	<script src="js/demo1.151408fb.js"></script>
+    <script src="js/gsap-public/minified/gsap.min.js"></script>
+    <script type="text/javascript" src="js/magneticButtons.js"></script>
+
 
 </body>
 
