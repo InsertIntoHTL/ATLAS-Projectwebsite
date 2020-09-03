@@ -353,6 +353,16 @@ section {
         
     }
 
+    .team-prev{
+        width: 100%;
+        margin-top: -2em;
+    }
+
+    .team-next{
+        width: 100%;
+        margin-top: -2em;
+    }
+
     .membercard {
         font-size: 1.6em;
     }
@@ -1094,7 +1104,7 @@ section {
             p{
                 font-style: italic;
                 font-weight: 700;
-                color: var(--mid-blue);
+                color: #777;
             }
         }
 

@@ -1,5 +1,6 @@
 const canvas = document.querySelector('#spheres');
-const renderer = new THREE.WebGLRenderer({canvas});
+const renderer = new THREE.WebGLRenderer({canvas, antialias: true});
+
 
 const fov = 75;
 const aspect = 2;  // the canvas default
@@ -11,20 +12,24 @@ camera.position.z = 100;
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x111111);
 
-var segmentCount = 50,
-    radius = 75,
-    geometry = new THREE.Geometry(),
-    material = new THREE.LineDashedMaterial({ color: 0xFFFFFF, linewidth: 1, scale: 1, dashSize: 2, gapSize: 20});
 
-for (var i = 0; i <= segmentCount; i++) {
-    var theta = (i / segmentCount) * Math.PI * 2;
-    geometry.vertices.push(
-        new THREE.Vector3(
-            Math.cos(theta) * radius,
-            Math.sin(theta) * radius,
-            0));            
+
+var geometry = new THREE.CircleGeometry( 10, 128 );
+var material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+var circle = new THREE.Mesh( geometry, material );
+scene.add( circle );
+
+
+var width = 80,
+    number = 8;
+
+for(let i = 0; i < number; i++){
+    let circleGeometry = new THREE.CircleGeometry( 10, 128 );
+    let circleMaterial = new THREE.MeshBasicMaterial( { color: 0xffffff } );
+    let circleMesh = new THREE.Mesh( circleGeometry, circleMaterial );
+    scene.add( circleMesh );
+    circleMesh.position.set(i+5, i+5, 1);
 }
-var line = new THREE.Line(geometry, material)
-line.computeLineDistances();
-scene.add(line);
+
+
 renderer.render(scene, camera);
