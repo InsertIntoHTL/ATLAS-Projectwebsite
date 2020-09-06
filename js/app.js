@@ -110,7 +110,37 @@ function toggleBurgerWrapper() {
     }
 }
 
-window.addEventListener('resize', toggleBurgerWrapper)
+
+let magneticToggle = false;
+
+let firstLink = $("#links a").get(0);
+let secondLink = $("#links a").get(1);
+let thirdLink = $("#links a").get(2);
+let fourthLink = $("#links a").get(3);
+let fifthLink = $("#links a").get(4);
+let sixthLink = $("#links a").get(5);
+
+function toggleMagneticButtons() {
+    if(mobile.matches) {
+        console.log("mobile matched")
+        magneticToggle = true;
+        console.log($("#links a"))
+        $("#links a").get(0).toggleClass("btn");
+        $("#links a").get(1).removeClass("btn");
+        $("#links a").get(2).removeClass("btn");
+        $("#links a").get(3).removeClass("btn");
+        $("#links a").get(4).removeClass("btn");
+        $("#links a").get(5).removeClass("btn");
+    } else {
+        if(magneticToggle) {
+            $("#links a").addClass("btn");
+            magneticToggle = false;
+        }
+    }
+}
+
+window.addEventListener('resize', toggleBurgerWrapper);
+window.addEventListener('resize', toggleMagneticButtons);
 
 
 
