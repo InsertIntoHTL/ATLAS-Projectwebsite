@@ -134,8 +134,12 @@
                                 <span class="sr-only">Next</span>
                             </div>
                         </div>
-                        <div class="spinning-spheres col-0 col-md-4">
-                            <canvas id="spheres"></canvas>
+                        <div class="spinning-spheres">
+                            <div class="inner-circle">
+                            </div>
+                            <div class="outer-circle">
+                            </div>
+                            <img src="./assets/images/ATLAS_Logo.svg" alt="ATLAS-Logo">
                         </div>
                     </div>
                 </div>
@@ -310,8 +314,6 @@
     </main>
 
     <script type="text/javascript" src="js/form.js"></script>
-    <script type="module" src="js/spheres.js"></script>
-
     <script src="js/gsap-public/minified/gsap.min.js"></script>
     <script type="text/javascript" src="js/magneticButtons.js"></script>
 

@@ -26,6 +26,14 @@ function changeMember(member) {
     $('#member-link1').attr("src", team[member].link1);
     $('#member-link2').attr("src", team[member].link2);
     currentMember = member;
+
+    if(team[member].team == "CORE"){
+        $(".outer-circle").addClass("active");
+        $(".inner-circle").removeClass("active");
+    }else{
+        $(".inner-circle").addClass("active");
+        $(".outer-circle").removeClass("active");
+    }
 }
 
 function nextMember() {
@@ -60,6 +68,23 @@ $(function() {
   });
 });
 
+
+//Spheres 
+var outerSpheres = 20
+    outerDist = 360/outerSpheres;
+var innerSpheres = 12
+    innerDist = 360/innerSpheres;
+
+$(document).ready(function () {
+    for(let i = 1; i <= innerSpheres; i++){
+        $('.inner-circle').append(`<div id="innerSphere${i}"><span></span></div>`);
+        $(`#innerSphere${i}`).css({ WebkitTransform: 'rotate(' + innerDist*i + 'deg)'});
+    }
+    for(let i = 1; i <= outerSpheres; i++){
+        $('.outer-circle').append(`<div id="outerSphere${i}"><span></span></div>`);
+        $(`#outerSphere${i}`).css({ WebkitTransform: 'rotate(' + outerDist*i + 'deg)'});
+    }
+});
 
 
 
