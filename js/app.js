@@ -19,30 +19,82 @@ $(document).ready(function () {
 });
 
 function changeMember(member) {
-    $('#member-pic').attr("src", team[member].img);
-    $('#member-name').html(team[member].name);
-    $('#member-role').html(team[member].role);
-    $('#member-team').html(team[member].team);
-    $('#member-link1').attr("href", team[member].link1);
-    $('#member-link2').attr("href", team[member].link2);
+
+    $('#member-name').animate(
+        { opacity: '0' },
+        200,
+        function () {
+            $('#member-name').html(team[member].name);
+            $('#member-name').animate(
+                { opacity: '1' }, 200);
+        });
+
+    $('#member-pic').animate(
+        { opacity: '0' },
+        200,
+        function () {
+            $('#member-pic').attr("src", team[member].img);
+            $('#member-pic').animate(
+                { opacity: '1' }, 200);
+        });
+
+    $('#member-role').animate(
+        { opacity: '0' },
+        200,
+        function () {
+            $('#member-role').html(team[member].role);
+            $('#member-role').animate(
+                { opacity: '1' }, 200);
+        });
+
+    $('#member-team').animate(
+        { opacity: '0' },
+        200,
+        function () {
+            $('#member-team').html(team[member].team);
+            $('#member-team').animate(
+                { opacity: '1' }, 200);
+        });
+
+    $('#member-link1').animate(
+        { opacity: '0' },
+        200,
+        function () {
+            $('#member-link1').attr("href", team[member].link1);
+            $('#member-link1').animate(
+                { opacity: '1' }, 200);
+        });
+
+    $('#member-link2').animate(
+        { opacity: '0' },
+        200,
+        function () {
+            $('#member-link2').attr("href", team[member].link2);
+            //Check if linkedin is available
+            if (team[member].link2 == "") {
+                $('#member-link2').addClass("hide");
+            } else {
+                $('#member-link2').removeClass("hide");
+            }
+            $('#member-link2').animate(
+                { opacity: '1' }, 200);
+        });
+
+
     currentMember = member;
 
-    //Check if linkedin is available
-    if(team[member].link2 == ""){
-        $('#member-link2').addClass("hide");
-    }else{
-        $('#member-link2').removeClass("hide");
-    }
 
 
     //Change sphere color
-    if(team[member].team == "SPHERE"){
+    if (team[member].team == "SPHERE") {
         $(".outer-circle").addClass("active");
         $(".inner-circle").removeClass("active");
-    }else{
+    } else {
         $(".inner-circle").addClass("active");
         $(".outer-circle").removeClass("active");
     }
+
+
 }
 
 function nextMember() {
@@ -63,35 +115,35 @@ function prevMember() {
 
 // Swipe function
 
-$(function() {
-    $('#membercard').swipe( {
-    //Generic swipe handler for all directions
-    swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-      if(direction == "right") {
-        prevMember();
-      } 
-      if(direction == "left"){
-        nextMember();
-      }
-    }
-  });
+$(function () {
+    $('#membercard').swipe({
+        //Generic swipe handler for all directions
+        swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+            if (direction == "right") {
+                prevMember();
+            }
+            if (direction == "left") {
+                nextMember();
+            }
+        }
+    });
 });
 
 
 //Spheres 
 var outerSpheres = 20
-    outerDist = 360/outerSpheres;
+outerDist = 360 / outerSpheres;
 var innerSpheres = 12
-    innerDist = 360/innerSpheres;
+innerDist = 360 / innerSpheres;
 
 $(document).ready(function () {
-    for(let i = 1; i <= innerSpheres; i++){
+    for (let i = 1; i <= innerSpheres; i++) {
         $('.inner-circle').append(`<div id="innerSphere${i}"><span></span></div>`);
-        $(`#innerSphere${i}`).css({ WebkitTransform: 'rotate(' + innerDist*i + 'deg)'});
+        $(`#innerSphere${i}`).css({ WebkitTransform: 'rotate(' + innerDist * i + 'deg)' });
     }
-    for(let i = 1; i <= outerSpheres; i++){
+    for (let i = 1; i <= outerSpheres; i++) {
         $('.outer-circle').append(`<div id="outerSphere${i}"><span></span></div>`);
-        $(`#outerSphere${i}`).css({ WebkitTransform: 'rotate(' + outerDist*i + 'deg)'});
+        $(`#outerSphere${i}`).css({ WebkitTransform: 'rotate(' + outerDist * i + 'deg)' });
     }
 });
 
@@ -121,8 +173,8 @@ function toggleBurgerWrapper() {
     let firstBurgerSpan = $("#burger-wrapper span:nth-of-type(1)").get(0);
     let secondBurgerSpan = $("#burger-wrapper span:nth-of-type(2)").get(0);
     let thirdBurgerSpan = $("#burger-wrapper span:nth-of-type(3)").get(0);
-    if(mobile.matches) {
-        if(burgerToggle) {
+    if (mobile.matches) {
+        if (burgerToggle) {
             firstBurgerSpan.style.transform = "rotate(45deg) translateY(14px)";
             secondBurgerSpan.style.opacity = "0";
             thirdBurgerSpan.style.transform = "rotate(-45deg) translateY(-14px)";
@@ -132,7 +184,7 @@ function toggleBurgerWrapper() {
             thirdBurgerSpan.style.transform = "rotate(0) translateY(0)";
         }
     } else {
-        if(burgerToggle) {
+        if (burgerToggle) {
             firstBurgerSpan.style.transform = "rotate(45deg) translateY(21px)";
             secondBurgerSpan.style.opacity = "0";
             thirdBurgerSpan.style.transform = "rotate(-45deg) translateY(-21px)";
@@ -155,7 +207,7 @@ let fifthLink = $("#links a").get(4);
 let sixthLink = $("#links a").get(5);
 
 function toggleMagneticButtons() {
-    if(mobile.matches) {
+    if (mobile.matches) {
         console.log("mobile matched")
         magneticToggle = true;
         console.log($("#links a"))
@@ -166,7 +218,7 @@ function toggleMagneticButtons() {
         $("#links a").get(4).removeClass("btn");
         $("#links a").get(5).removeClass("btn");
     } else {
-        if(magneticToggle) {
+        if (magneticToggle) {
             $("#links a").addClass("btn");
             magneticToggle = false;
         }

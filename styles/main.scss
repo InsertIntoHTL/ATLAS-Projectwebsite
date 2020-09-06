@@ -403,6 +403,7 @@ section {
       margin-right: .5em;
       cursor: pointer;
       transition-duration: .5s;
+      transition-property: color;
       color: #fff;
 
       &:hover{
