@@ -429,7 +429,6 @@ section .headline {
 
 #Team .team-prev {
   width: 100%;
-  margin-top: -2em;
 }
 
 @media (max-width: 992px) {
@@ -440,7 +439,6 @@ section .headline {
 
 #Team .team-next {
   width: 100%;
-  margin-top: -2em;
 }
 
 @media (max-width: 992px) {
@@ -466,6 +464,28 @@ section .headline {
   color: var(--mid-blue);
   font-style: italic;
   font-weight: 600;
+}
+
+#Team .socials {
+  display: block !important;
+  margin-top: .5em;
+}
+
+#Team .socials .hide {
+  display: none;
+}
+
+#Team .socials a {
+  display: inline-block;
+  margin-right: .5em;
+  cursor: pointer;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  color: #fff;
+}
+
+#Team .socials a:hover {
+  color: var(--mid-blue);
 }
 
 #Team .profile-picture {
@@ -506,6 +526,12 @@ section .headline {
     width: 30vw;
     height: 30vw;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  #Team .spinning-spheres {
+    display: none;
   }
 }
 

@@ -119,8 +119,8 @@
                                                 <p id="member-role">Scrum Master</p>
                                                 <p id="member-team">CORE</p>
                                                 <div class="socials">
-                                                    <img id="member-link1" />
-                                                    <img id="member-link2" />
+                                                    <a id="member-link1"><i class="fas fa-envelope"></i></a>
+                                                    <a id="member-link2" target="_blank"><i class="fab fa-linkedin"></i></a>
                                                 </div>
                                             </div>
                                         </div>

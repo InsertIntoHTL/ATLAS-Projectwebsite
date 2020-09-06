@@ -41,8 +41,8 @@ const FILIP = new Member(
     "Filip Milovanovic",
     "Scrum Master",
     "CORE",
-    "",
-    ""
+    "mailto:filip.milovanovic@project-atlas.at",
+    "https://www.linkedin.com/in/milovanovicf/"
 );
 
 const MANUEL = new Member(
@@ -50,7 +50,7 @@ const MANUEL = new Member(
     "Manuel Hummel",
     "Infrastruktur",
     "CORE",
-    "",
+    "mailto:manuel.hummel@project-atlas.at",
     ""
 );
 
@@ -59,7 +59,7 @@ const SIMON = new Member(
     "Simon Griebaum",
     "Virtualisierung",
     "CORE",
-    "",
+    "mailto:simon.griebaum@project-atlas.at",
     ""
 );
 
@@ -68,7 +68,7 @@ const NIKI = new Member(
     "Nikolaus Boyer",
     "Netzwerk",
     "CORE",
-    "",
+    "mailto:nikolaus.boyer@project-atlas.at",
     ""
 );
 
@@ -77,8 +77,8 @@ const LEO = new Member(
     "Leo Sollereder",
     "Web Entwicklung",
     "SPHERE",
-    "",
-    ""
+    "mailto:leo.sollereder@project-atlas.at",
+    "https://www.linkedin.com/in/leo-sollereder-8860a71a7/"
 );
 
 const TIM = new Member(
@@ -86,8 +86,8 @@ const TIM = new Member(
     "Tim Schreiber",
     "UI / Design",
     "SPHERE",
-    "",
-    ""
+    "mailto:tim.schreiber@project-atlas.at",
+    "https://www.linkedin.com/in/tim-schreiber-b414211b4/"
 );
 
 team.push(FILIP, MANUEL, SIMON, NIKI, LEO, TIM);

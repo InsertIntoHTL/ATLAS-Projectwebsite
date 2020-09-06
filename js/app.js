@@ -23,11 +23,20 @@ function changeMember(member) {
     $('#member-name').html(team[member].name);
     $('#member-role').html(team[member].role);
     $('#member-team').html(team[member].team);
-    $('#member-link1').attr("src", team[member].link1);
-    $('#member-link2').attr("src", team[member].link2);
+    $('#member-link1').attr("href", team[member].link1);
+    $('#member-link2').attr("href", team[member].link2);
     currentMember = member;
 
-    if(team[member].team == "CORE"){
+    //Check if linkedin is available
+    if(team[member].link2 == ""){
+        $('#member-link2').addClass("hide");
+    }else{
+        $('#member-link2').removeClass("hide");
+    }
+
+
+    //Change sphere color
+    if(team[member].team == "SPHERE"){
         $(".outer-circle").addClass("active");
         $(".inner-circle").removeClass("active");
     }else{
