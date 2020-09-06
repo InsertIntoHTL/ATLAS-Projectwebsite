@@ -45,7 +45,7 @@
 <body>
 
     <header>
-        <a href="#0"><img src="./assets/images/ATLAS_Logo.svg" alt="ATLAS-Logo" class="btn" /></a>
+        <a href="#0" onclick="menu()"><img src="./assets/images/ATLAS_Logo.svg" alt="ATLAS-Logo" class="btn" /></a>
         <div id="burger-wrapper" onclick="menu()" class="btn">
             <span></span>
             <span></span>

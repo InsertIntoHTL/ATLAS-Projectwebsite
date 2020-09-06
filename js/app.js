@@ -163,6 +163,11 @@ function menu() {
     toggleBurgerWrapper();
 }
 
+function closeMenu() {
+    burgerToggle = false;
+    $("#menu").hide();
+}
+
 
 /* Menu toggle */
 
