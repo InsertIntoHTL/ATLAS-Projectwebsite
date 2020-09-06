@@ -467,12 +467,38 @@ section {
 
     }
 
+    #outerDsc{
+      position: absolute;
+      top: 1.2vw;
+      left: 1.2vw;
+      transform: rotate(-50deg);
+      font-size: .6vw;
+      font-weight: bold;
+      transition-duration: .5s;
+      transition-property: color;
+    }
+
+    #innerDsc{
+      position: absolute;
+      top: 2.8vw;
+      left: 2.8vw;
+      transform: rotate(-50deg);
+      font-size: .6vw;
+      font-weight: bold;
+      transition-duration: .5s;
+      transition-property: color;
+    }
+
     .active {
       div {
         span {
           background-color: var(--mid-blue) !important;
         }
       }
+    }
+
+    .active-dsc{
+      color: var(--mid-blue) !important;
     }
 
     .inner-circle {

@@ -89,9 +89,13 @@ function changeMember(member) {
     if (team[member].team == "SPHERE") {
         $(".outer-circle").addClass("active");
         $(".inner-circle").removeClass("active");
+        $("#outerDsc").addClass("active-dsc");
+        $("#innerDsc").removeClass("active-dsc");
     } else {
         $(".inner-circle").addClass("active");
         $(".outer-circle").removeClass("active");
+        $("#innerDsc").addClass("active-dsc");
+        $("#outerDsc").removeClass("active-dsc");
     }
 
 
@@ -145,7 +149,14 @@ $(document).ready(function () {
         $('.outer-circle').append(`<div id="outerSphere${i}"><span></span></div>`);
         $(`#outerSphere${i}`).css({ WebkitTransform: 'rotate(' + outerDist * i + 'deg)' });
     }
+
+    let inner = new CircleType(document.getElementById('innerDsc'));
+    let outer = new CircleType(document.getElementById('outerDsc'));
+    inner.radius(130);
+    outer.radius(130);
 });
+
+
 
 
 

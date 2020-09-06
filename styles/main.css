@@ -558,8 +558,40 @@ section .headline {
           transform: translate(-50%, -50%);
 }
 
+#Team .spinning-spheres #outerDsc {
+  position: absolute;
+  top: 1.2vw;
+  left: 1.2vw;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  font-size: .6vw;
+  font-weight: bold;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+#Team .spinning-spheres #innerDsc {
+  position: absolute;
+  top: 2.8vw;
+  left: 2.8vw;
+  -webkit-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  font-size: .6vw;
+  font-weight: bold;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
 #Team .spinning-spheres .active div span {
   background-color: var(--mid-blue) !important;
+}
+
+#Team .spinning-spheres .active-dsc {
+  color: var(--mid-blue) !important;
 }
 
 #Team .spinning-spheres .inner-circle {

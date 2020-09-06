@@ -38,6 +38,9 @@
     <!-- TouchSwipe -->
     <script src="./js/jquery.touchSwipe.min.js"></script>
 
+    <!-- CircleType -->
+    <script src="./js/circletype.min.js"></script>
+
     <script src="./js/member.js"></script>
     <script src="./js/app.js"></script>
 </head>
@@ -140,6 +143,8 @@
                             <div class="outer-circle">
                             </div>
                             <img src="./assets/images/ATLAS_Logo.svg" alt="ATLAS-Logo">
+                            <div id="outerDsc">SPHERE</div>
+                            <div id="innerDsc">CORE</div>
                         </div>
                     </div>
                 </div>
