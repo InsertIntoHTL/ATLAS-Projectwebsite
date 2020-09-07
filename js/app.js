@@ -177,6 +177,7 @@ function menu() {
 function closeMenu() {
     burgerToggle = false;
     $("#menu").hide();
+    toggleBurgerWrapper();
 }
 
 
