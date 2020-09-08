@@ -172,12 +172,14 @@ function menu() {
     $("#menu").fadeToggle("fast");
     burgerToggle = !burgerToggle;
     toggleBurgerWrapper();
+    openMenu = !openMenu;
 }
 
 function closeMenu() {
     burgerToggle = false;
     $("#menu").hide();
     toggleBurgerWrapper();
+    openMenu = false;
 }
 
 
