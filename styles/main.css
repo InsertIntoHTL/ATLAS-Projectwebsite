@@ -213,9 +213,7 @@ section .headline {
           transform: translate(-50%, -50%);
   font-size: 20vw;
   font-weight: bold;
-  -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: rgba(255, 255, 255, 0.7);
-  color: var(--dark-background);
+  color: rgba(255, 255, 255, 0.7);
   z-index: 2;
 }
 
@@ -503,12 +501,21 @@ section .headline {
           justify-content: center;
 }
 
-#Team .profile-picture img {
-  width: 100%;
-  max-width: 120px;
-  height: auto;
-  max-height: 120px;
+#Team .profile-picture div {
+  position: relative;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  overflow: hidden;
+}
+
+#Team .profile-picture div img {
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 @media (max-width: 992px) {
@@ -524,7 +531,7 @@ section .headline {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  #Team .profile-picture img {
+  #Team .profile-picture div {
     width: 30vw;
     height: 30vw;
     margin-bottom: 20px;

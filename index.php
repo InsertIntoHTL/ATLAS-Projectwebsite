@@ -87,14 +87,13 @@
             <div class="row d-flex justify-content-center">
                 <h2 class="headline col-10 col-md-8">INFO</h2>
                 <p class="col-10 col-md-8 col-lg-6">
-                    Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt im komplett
-                    verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter
-                    Deich. Vogel Quax zwickt Johnys Pferd Bim. Sylvia wagt quick den Jux bei Pforzheim. Polyfon
-                    zwitschernd aßen Mäxchens Vögel Rüben, Joghurt und Quark. "Fix, Schwyz!" quäkt Jürgen blöd vom Paß.
-                    Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich. Falsches Üben von Xylophonmusik
-                    quält jeden größeren Zwerg. Heizölrückstoßabdämpfung. Zwei flinke Boxer jagen die quirlige Eva und
-                    ihren Mops durch Sylt. Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer
-                    jagen Viktor
+                    Das ATLAS Projektteam hat es sich zur Aufgabe gemacht eine Plattform zu entwickeln,
+                    welche es Schüler*innen ermöglicht schnell und einfach virtuelle Maschinen für den
+                    Laborunterricht oder Eigengebrauch zu buchen.
+                    Zudem wird auf der Webplattform die Möglichkeit geboten sich im Bereich des
+                    “Penetration-Testing” auszutoben. Dabei handelt es sich bei unserer Lösung um eine
+                    völlig legale und unkomplizierte Art der Weiterbildung. Egal ob Anfänger oder Experte,
+                    bei unseren Szenarien ist für jeden etwas dabei.
                 </p>
             </div>
         </section>
@@ -114,7 +113,9 @@
                                 <div class="membercard col-12" id="membercard">
                                     <div class="row">
                                         <div class="profile-picture col-12 col-lg-4">
-                                            <img id="member-pic" src="./assets/images/team/filip.jpeg" />
+                                            <div>
+                                                <img id="member-pic" src="./assets/images/team/filip.jpeg" />
+                                            </div>
                                         </div>
                                         <div class="infotext col-12 col-lg-8">
                                             <div>

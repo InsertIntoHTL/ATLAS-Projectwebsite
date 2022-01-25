@@ -37,7 +37,7 @@ class Member {
 var team = [];
 
 const FILIP = new Member(
-    "./assets/images/team/filip.jpeg",
+    "./assets/images/team/milo.jpg",
     "Filip Milovanovic",
     "Scrum Master",
     "CORE",
@@ -46,7 +46,7 @@ const FILIP = new Member(
 );
 
 const MANUEL = new Member(
-    "./assets/images/team/manuel.jpeg",
+    "./assets/images/team/manuel.jpg",
     "Manuel Hummel",
     "Infrastruktur",
     "CORE",
@@ -55,7 +55,7 @@ const MANUEL = new Member(
 );
 
 const SIMON = new Member(
-    "./assets/images/team/simon.jpeg",
+    "./assets/images/team/simon.jpg",
     "Simon Griebaum",
     "Virtualisierung",
     "CORE",
@@ -64,7 +64,7 @@ const SIMON = new Member(
 );
 
 const NIKI = new Member(
-    "./assets/images/team/niki.jpeg",
+    "./assets/images/team/niki.jpg",
     "Nikolaus Boyer",
     "Netzwerk",
     "CORE",
@@ -73,7 +73,7 @@ const NIKI = new Member(
 );
 
 const LEO = new Member(
-    "./assets/images/team/leo.jpeg",
+    "./assets/images/team/leo.jpg",
     "Leo Sollereder",
     "Web Entwicklung",
     "SPHERE",
@@ -82,7 +82,7 @@ const LEO = new Member(
 );
 
 const TIM = new Member(
-    "./assets/images/team/tim.jpeg",
+    "./assets/images/team/tim.jpg",
     "Tim Schreiber",
     "UI / Design",
     "SPHERE",
